@@ -1,0 +1,23 @@
+IDI_ICON1 ICON DISCARDABLE "myappicon.ico"
+
+1 VERSIONINFO
+FILEVERSION             0,0,1,0
+PRODUCTVERSION          0,0,1,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName",      "Retrosoft\0"
+            VALUE "FileDescription",  "A font character editor for C64 usage.\0"
+            VALUE "FileVersion",      "0.0.1\0"
+            VALUE "LegalCopyright",   "Copyright 2016 Alex Argiropoulos\0"
+            VALUE "ProductName",      "Char64\0"
+            VALUE "ProductVersion",   "0.0.1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END

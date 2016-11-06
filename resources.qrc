@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/copy.png</file>
+        <file>images/cut.png</file>
+        <file>images/new.png</file>
+        <file>images/open.png</file>
+        <file>images/paste.png</file>
+        <file>images/save.png</file>
+        <file>images/app.png</file>
+        <file>images/shift-left.png</file>
+        <file>images/shift-down.png</file>
+        <file>images/shift-right.png</file>
+        <file>images/shift-up.png</file>
+        <file>images/mirror-horiz.png</file>
+        <file>images/mirror-vert.png</file>
+        <file>images/rotatecw.png</file>
+        <file>images/rotateccw.png</file>
+        <file>fonts/chargen</file>
+        <file>images/invert.png</file>
+    </qresource>
+</RCC>
