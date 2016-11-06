@@ -107,7 +107,12 @@ void charmapWidget::paintEvent(QPaintEvent *event)
 
 void charmapWidget::drawChar(QPainter &painter, int cx, int cy, int c)
 {
-    uint64_t cd = *((uint64_t *) (&displayFont[c*8]));
+    //uint64_t cd = *((uint64_t *) (&displayFont[c*8]));
+    uint64_t cd = 0;
+    for(int i=0; i<8; ++i) {
+        cd<<=8;
+        cd|=displayFont[c*8+(7-i)];
+    }
     int on = 0;
     for(int y=7; y>=0; --y)
         for (int x=0; x<8; ++x) {

@@ -51,6 +51,8 @@ MainWindow::MainWindow(QWidget *parent) :
     separatorAct2 = ui->menuFile->insertSeparator(ui->menuFile->actions().at(ui->menuFile->actions().length()-1));
     updateRecentFileActions();
 
+    ui->pushButton->setVisible(false);
+    ui->checkBox->setVisible(false);
 }
 
 
