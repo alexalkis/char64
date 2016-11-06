@@ -471,5 +471,5 @@ void MainWindow::on_actionInvert_triggered()
 
 void MainWindow::on_actionAbout_triggered()
 {
-    QMessageBox::about(this,"Char64",QString("A simple character editor to edit fonts for the Commodore 64.\nWritten by Alex Argiropoulos.\n\n\nPre-alpha built. (Build date: "__DATE__")"));
+    QMessageBox::about(this,"Char64",QString("A simple character editor to edit fonts for the Commodore 64.\nWritten by Alex Argiropoulos.\n\n\nPre-alpha built. (Build date: " __DATE__ ")"));
 }
