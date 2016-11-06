@@ -56,8 +56,7 @@ void charmapWidget::mousePressEvent(QMouseEvent *event)
             emit characterSelected(lastKey);
         update();
     }
-    else
-        QWidget::mousePressEvent(event);
+    QWidget::mousePressEvent(event);
 }
 
 
