@@ -36,4 +36,5 @@ RESOURCES += \
     resources.qrc
 
 DISTFILES += \
-    myapp.rc
+    myapp.rc \
+    Readme.md
