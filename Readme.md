@@ -1,4 +1,4 @@
-#Char64
+#![alt tag](https://github.com/alexalkis/char64/blob/master/images/app.png) Char64
 ## Synopsis
 
 An application to edit fonts for the Commodore 64.
