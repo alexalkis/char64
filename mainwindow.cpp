@@ -407,6 +407,7 @@ void MainWindow::on_spinBox_2_customContextMenuRequested(const QPoint &pos)
     QSize dsize = mainDialog.size();
     mainDialog.setMinimumSize(dsize);
     mainDialog.setMaximumSize(dsize);
+    mainDialog.show(); //Gnome hack, without this gnome centers the dialog on parent
     int ret = mainDialog.exec();
     if (ret) {
         ui->displayChar->setCharIndex(ret-1);
