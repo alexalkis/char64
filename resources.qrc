@@ -17,5 +17,6 @@
         <file>images/rotateccw.png</file>
         <file>fonts/chargen</file>
         <file>images/invert.png</file>
+        <file>images/about.png</file>
     </qresource>
 </RCC>

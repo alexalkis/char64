@@ -210,7 +210,7 @@
      <x>0</x>
      <y>0</y>
      <width>1002</width>
-     <height>21</height>
+     <height>42</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -539,6 +539,10 @@
    </property>
   </action>
   <action name="actionAbout">
+   <property name="icon">
+    <iconset resource="resources.qrc">
+     <normaloff>:/images/about.png</normaloff>:/images/about.png</iconset>
+   </property>
    <property name="text">
     <string>About Char64...</string>
    </property>
