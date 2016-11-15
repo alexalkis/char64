@@ -44,7 +44,8 @@ void charmapWidget::mouseMoveEvent(QMouseEvent *event)
 //                  + QChar(key)
 //                  + QString::fromLatin1("</span><p>Value: 0x")
 //                  + QString::number(key, 16);
-    QString text = QString::fromLatin1("Char: 0x")+ QString::number(key, 16);
+    QString text = QString::fromLatin1("Char: 0x")+ QString::number(key, 16)
+                    + " ("+QString::number(key)+")";
     QToolTip::showText(event->globalPos(), text, this);
 }
 
