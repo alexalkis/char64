@@ -123,3 +123,9 @@ void palettebutton::setColorIndex(int i)
     setPalette(pal);
     emit currentIndexChanged(m_index);
 }
+
+int palettebutton::heightForWidth(int w) const
+{
+    std::cout << "hmmmm, heightforwidth\n";
+    return w;
+}

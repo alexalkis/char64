@@ -17,6 +17,7 @@ public:
 protected:
     void mousePressEvent(QMouseEvent *event);// Q_DECL_OVERRIDE;
     void wheelEvent(QWheelEvent * event);// Q_DECL_OVERRIDE;
+    int heightForWidth(int w) const;
 public slots:
     void popColor(const int c);
 
