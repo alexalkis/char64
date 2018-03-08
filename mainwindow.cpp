@@ -359,6 +359,7 @@ void MainWindow::on_actionSave_As_triggered()
 void MainWindow::on_actionCopy_triggered()
 {
     ui->displayChar->copy();
+    ui->actionPaste->setEnabled(true);
 }
 
 void MainWindow::on_actionCut_triggered()
